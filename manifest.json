@@ -1,0 +1,11 @@
+{
+  "name": "QRCodeGenerator",
+  "version": "0.0.0",
+  "manifest_version": 2,
+  "description": "Generate QRCode from URL in clipboard or current site",
+  "browser_action": {
+    "default_title": "QRCodeGenerator",
+    "default_popup": "index.html"
+  },
+  "permissions": ["clipboardRead"]
+}
