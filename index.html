@@ -3,10 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <title>QRCodeGenerator</title>
+  <script src="qrcode.min.js"></script>
 </head>
 <body>
   <h1>QRCodeGenerator</h1>
-  <h2 id="text"></h2>
+  <input type="button" value="TabURL" id="fromTabURL" />
+  <input type="button" value="Clipboard" id="fromClipboard" />
+  <p id="url"></p>
+  <div id="qr"></div>
   <script src="main.js"></script>
 </body>
 </html>
