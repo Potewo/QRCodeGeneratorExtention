@@ -7,5 +7,9 @@
     "default_title": "QRCodeGenerator",
     "default_popup": "index.html"
   },
-  "permissions": ["clipboardRead", "tabs"]
+  "permissions": ["clipboardRead", "tabs"],
+  "icons": {
+    "48": "icons/qr_code_scanner_black_24dp.svg",
+    "96": "icons/qr_code_scanner_black_24dp.svg"
+  }
 }
