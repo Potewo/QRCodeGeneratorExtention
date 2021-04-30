@@ -1,4 +1,4 @@
-var qrcode = new QRCode(document.getElementById("qr"), { text: "https://example.com" });
+var qrcode = new QRCode(document.getElementById("qr"), "");
 
 function generateFromClipboard() {
   navigator.clipboard.readText().then(
@@ -20,14 +20,6 @@ function generateFromTabURL() {
   }).catch( error => {
     console.log(error);
   });
-  // let url = "";
-  // for (let tab of tabs) {
-  //   if (tab.active) {
-  //     url = tab.url;
-  //   }
-  // }
-  // url = tabs[0].url;
-  // generate(url);
 }
 
 function generate(url) {
