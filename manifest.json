@@ -5,7 +5,8 @@
   "description": "Generate QR Code from URL in clipboard or current site. “QR Code” is a registered trademark of DENSO WAVE INCORPORATED.",
   "browser_action": {
     "default_title": "QRCodeGenerator",
-    "default_popup": "app/pages/popup.html"
+    "default_popup": "app/pages/popup.html",
+    "default_icon": "app/images/qr_code_scanner_black_24dp.svg"
   },
   "permissions": ["clipboardRead", "tabs"]
 }
