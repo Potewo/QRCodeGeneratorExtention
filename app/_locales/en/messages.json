@@ -1,0 +1,18 @@
+{
+  "appName": {
+    "message": "QRCodeGeneratorExtention",
+    "description": "The name of the application"
+  },
+  "appShortName": {
+    "message": "QRCodeGen",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the app's name."
+  },
+  "appDescription": {
+    "message": "Generate QR Code from URL in clipboard or current site. “QR Code” is a registered trademark of DENSO WAVE INCORPORATED.",
+    "description": "The description of the application"
+  },
+  "browserActionTitle": {
+    "message": "QRCodeGeneratorExtention",
+    "description": "The title of the browser action button"
+  }
+}
